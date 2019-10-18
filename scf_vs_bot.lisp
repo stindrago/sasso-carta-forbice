@@ -1,6 +1,7 @@
 (defvar UNI)
 (defvar CAMBOT)
 (defvar PUNTI 0)
+(setq *random-state* (make-random-state t))
 
 (loop
  (setq CAMBOT (nth (random (length '(S C F))) '(S C F)))
